@@ -6,7 +6,7 @@ import "./styles.css";
 export default function App() {
   const [currencies, setcurrencies] = useState([]);
   const [pair, setpair] = useState("");
-  const [price, setprice] = useState("0.00");
+  const [price, setprice] = useState("40000.00");
   const [pastData, setpastData] = useState({});
   const ws = useRef(null);
 
