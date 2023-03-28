@@ -10,7 +10,7 @@ function Dashboard({ price, data }) {
     responsive: true,
     maintainAspectRatio: false
   };
-  if (price === "0.00") {
+  if (price === "40000.00") {
     return <h2>please select a currency pair</h2>;
   }
   return (
